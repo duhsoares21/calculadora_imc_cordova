@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Muli;
+    src:url(../fonts/Muli-Light.ttf)
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Muli;
+    font-size: x-large;
+}
+
+.box-container {
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-formulario{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: x-large;
+}
+
+.box-resultado {
+    display: none;
+    border:1px solid #ababab;
+}
+
+.box-botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-botoes button {
+    flex-grow: 1;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.box-botoes .btn-positivo {
+    background: #35ce8d;
+    color: #fff;
+}
+
+.box-botoes .btn-negativo {
+    background: #f87666;
+    color: #fff;
+}
+
+.box-formulario input{
+    border-width: 0px 0px 1px 0px;
+    border-color: #dadada;
+    font-size: x-large;
+}
+
+.box-formulario input:focus{
+    background: #dadada;
+    font-weight: bold;
+}
